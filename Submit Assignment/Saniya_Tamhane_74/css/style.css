@@ -1,0 +1,302 @@
+body
+{
+    background-color: gray;
+}
+
+.id-card-wrapper-front
+{
+    position: relative;
+    left: 40mm;
+    top: 40mm;
+    width: 180pt; 
+    height: 300pt; 
+    margin: 17.25pt;
+    background-color: #ffffff;
+    border-top: 12mm solid #c6c7c9 ;
+    border-right: 3mm solid #c6c7c9 ;
+    border-bottom: 4mm solid #c6c7c9 ;
+    border-left: 3mm solid #c6c7c9 ; 
+    outline: 0.4mm solid white;
+    border-radius: 3%;
+    overflow: hidden;
+   
+}
+
+.id-dark-pink
+{
+    position: absolute;
+    top: -19.90mm;
+    left: 14.10mm;
+    width:35mm;
+    height: 35mm;
+    background-color: rgba(224,220,217,255);
+    transform: rotate(45deg);
+    border:2mm solid white ;
+    outline: 5mm solid #a280f1;
+   
+}
+
+.id-pink
+{
+    position: absolute;
+    top: -22mm;
+    left: 9.70mm;
+    width:23mm;
+    height: 53mm;
+    transform: rotate(-45deg);
+    border-left: 5mm solid #67b4f8;
+   
+}
+
+.id-light-pink
+{
+    position: absolute;
+    top: -28.3mm;
+    left: 6mm;
+    width:45mm;
+    height: 45mm;
+    transform: rotate(45deg);
+    border:6mm solid #033a9f ;
+    outline: 1.40mm solid #4cbef2;
+    
+}
+
+.user-photo {
+    position: absolute;
+    top: 21.80mm;
+    left: 18.70mm;
+    background-color: rgba(239,242,249,255);   
+}
+
+.user-name{
+    position: absolute;
+    top: 51mm;
+    left: 15mm;
+    color:black;
+    font-weight: bold;
+    font-size: 5.4mm;
+    letter-spacing: 0.7pt;
+    
+}
+.id-number {
+    font-size: 3.80mm;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 58mm;
+    left: 15mm;
+    color: #69b1ff;
+   
+}
+
+.id-title {
+    font-size: 3.50mm;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 68mm;
+    left: 11mm;
+}
+
+.dob
+{
+    font-size: 3.50mm;
+    font-weight: bold;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 74mm;
+    left: 11mm;
+}
+
+.org-name
+{
+    position: absolute;
+    font-weight: bold;
+    top: 79mm;
+    left: 11mm;
+    font-size: 3.50mm;
+    
+}
+
+.org-address {
+    position: absolute;
+    font-weight: bold;
+    top: 84.90mm;
+    left: 11mm;
+    font-size: 3.50mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 17pt; /* 10px */
+    top: 93mm; /* 10px */
+  
+    object-fit: cover;
+}
+
+.org-logo
+ {
+    position: absolute;
+    left: 71pt; /* 10px */
+    top: 1.90mm; /* 10px */
+    border-radius: 10%;
+    object-fit: cover;
+ }
+
+ .id-card-wrapper-back 
+ {
+    position: relative;
+    left: 130mm;
+    top: -87mm;
+    width: 180pt; /* 223px */
+    height: 300pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border-top: 12mm solid #c6c7c9 ;
+    border-right: 3mm solid #c6c7c9 ;
+    border-bottom: 4mm solid #c6c7c9 ;
+    border-left: 3mm solid #c6c7c9 ; /* 1px */
+    outline: 0.4mm solid white;
+    border-radius: 3%;
+    overflow: hidden;
+  
+}
+
+.id-card-wrapper-back .id-card-background .id-dark-pink-bottom
+{
+    position: absolute;
+    top: -7.80mm;
+    left: 2.70mm;
+    width:12mm;
+    height: 12mm;
+    transform: rotate(45deg);
+    background-color:  #8c97f3;
+    border-right: 4mm solid #033a9f; ;
+    border-bottom: 4mm solid #033a9f;
+    outline: 2.90mm solid #8998f3; 
+}
+
+.id-card-wrapper-back .id-card-background .id-pink-bottom
+{
+    position: absolute;
+    top: -8.40mm;
+    left: -1.70mm;
+    width:20mm;
+    height: 20mm;
+    transform: rotate(45deg);
+    border-bottom: 4.30mm solid #033a9f;
+    border-right: 4.30mm solid #033a9f;  
+    outline: 1.20mm solid #e2e0e1; 
+}
+.id-card-wrapper-back .id-card-background .id-blue-bottom
+{
+    position: absolute;
+    top: -8.10mm;
+    left: 52.10mm;
+    width:12mm;
+    height: 12mm;
+    transform: rotate(45deg);
+    background-color:  #8c97f3;
+   border-right: 4.60mm solid #033a9f;
+    border-bottom: 4.60mm solid #033a9f;
+    outline: 2.60mm solid #8998f3; 
+}
+.id-card-wrapper-back .id-card-background .id-light-blue-bottom
+{
+    position: absolute;
+    top: -13.70mm;
+    left: 46.70mm;
+    width:20mm;
+    height: 20mm;
+    transform: rotate(45deg);
+    border: 4.30mm solid #033a9f;
+    outline: 0.2mm solid #e2e0e1; 
+    
+}
+.id-card-wrapper-back .id-card-background .id-light-pink-bottom
+{
+    position: absolute;
+    top: -15.80mm;
+    left: 20.90mm;
+    width:25mm;
+    height: 25mm;
+    transform: rotate(45deg);
+    border: 5mm solid #033a9f;
+    outline: 0.2mm solid #e2e0e1; 
+    
+}
+.id-card-wrapper-back .id-card-background .id-dark-blue-bottom
+{
+    position: absolute;
+    top: -10.82mm;
+    left: 26.50mm;
+    width:15mm;
+    height: 15mm;
+    transform: rotate(45deg);
+    background-color:  #8a97f7;
+    border: 4mm solid #033a9f;
+    outline:3mm solid #8a97f7; 
+}
+
+
+.id-policy 
+{
+    position: absolute;
+    top: 5mm;
+    font-size: 4mm;
+    text-align: center;
+    margin-top: 25mm;
+    margin-left: 3mm;
+    margin-right: 3mm;
+}
+
+.id-issue-date{
+    position: absolute;
+    top: 60.80mm;
+    left: 10.30mm;
+    color: #033a9f;
+    font-size: 13pt;  
+    font-weight: bold;   
+}
+.id-expiry-date{
+    position: absolute;
+    top: 70mm;
+    left: 9mm;
+    color: #033a9f;
+    font-size: 13pt; 
+    font-weight: bold;
+}
+.id-blood-group
+{
+    position: absolute;
+    top: 47.82mm;
+    left:1mm;
+    width:50mm;
+    height: 50mm;
+    transform: rotate(45deg);
+    background-color:  white;
+    border-right: 12mm solid rgba(230,231,233,255);
+    border-bottom: 12mm solid rgba(230,231,233,255);
+    
+}
+
+
+
+
+.id-dob
+{
+    position: absolute;
+    top: 55.82mm;
+    left:5mm;
+    width:50mm;
+    height: 50mm;
+    transform: rotate(45deg); 
+    border-right: 1.90mm solid #d7d8da;
+    border-bottom: 1.90mm solid #d7d8da;
+    filter: blur(1.60pt);
+   
+}
+
+
